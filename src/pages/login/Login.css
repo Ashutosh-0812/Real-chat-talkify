@@ -1,0 +1,92 @@
+.login {
+    min-height: 100vh;
+    background: url(/background.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px; /* Add padding for better spacing on smaller screens */
+}
+
+.login .logo {
+    width: max(20vw, 200px);
+}
+
+.login-form {
+    background: white;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure form doesn't overflow on smaller screens */
+    max-width: 400px; /* Limit form width for better readability */
+}
+
+.login-form h2 {
+    font-weight: 500;
+    text-align: center; /* Center the heading */
+}
+
+.form-input {
+    padding: 8px 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    outline-color: #077eff;
+    font-size: 14px; /* Ensure consistent font size */
+}
+
+.form-input::placeholder {
+    color: #a0a0a0; /* Add placeholder color for better UX */
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #077eff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add hover effect */
+}
+
+.login-form button:hover {
+    background-color: #0666cc; /* Darker shade on hover */
+}
+
+.login-term {
+    display: flex;
+    align-items: center; /* Align checkbox and label properly */
+    gap: 5px;
+    font-size: 12px;
+    color: #808080;
+}
+
+.login-term input[type="checkbox"] {
+    cursor: pointer; /* Make checkbox clickable */
+}
+
+.login-forgot {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center; /* Center the text */
+}
+
+.login-toggle {
+    font-size: 13px;
+    color: #5c5c5c;
+}
+
+.login-toggle span {
+    font-weight: 500;
+    color: #077eff;
+    cursor: pointer;
+    text-decoration: underline; /* Add underline for better UX */
+}
+
+.login-toggle span:hover {
+    color: #0666cc; /* Darker shade on hover */
+}

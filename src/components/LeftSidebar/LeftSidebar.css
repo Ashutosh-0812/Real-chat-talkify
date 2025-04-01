@@ -1,0 +1,141 @@
+:root {
+  --primary-bg: #001030;
+  --secondary-bg: #002670;
+  --accent-color: #077EFF;
+  --text-color: white;
+  --placeholder-color: #c8c8c8;
+  --muted-text: #9f9f9f;
+}
+
+.ls {
+  background: var(--primary-bg);
+  color: var(--text-color);
+  height: 75vh;
+}
+
+.ls-top {
+  padding: 20px;
+}
+
+.ls-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Added padding for better spacing */
+}
+
+.ls-nav .logo {
+  max-width: 140px; /* Adjust this value to fit your screen */
+  width: 100%; /* Ensure the logo scales responsively */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.ls-nav .menu img {
+  max-height: 20px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.ls-search {
+  background-color: var(--secondary-bg);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  margin-top: 20px;
+}
+
+.ls-search img {
+  width: 16px;
+}
+
+.ls-search input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-color);
+  font-size: 11px;
+}
+
+.ls-search input::placeholder {
+  color: var(--placeholder-color);
+}
+
+.ls-list {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  overflow-y: scroll;
+}
+
+.friends {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.friends img {
+  width: 35px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.friends div {
+  display: flex;
+  flex-direction: column;
+}
+
+.friends span {
+  color: var(--muted-text);
+  font-size: 11px;
+}
+
+.friends:hover {
+  background-color: var(--accent-color);
+}
+
+.friends:hover span {
+  color: var(--text-color);
+}
+
+.ls-nav .menu {
+  position: relative;
+  padding: 10px 0px;
+}
+
+.menu .sub-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  display: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.sub-menu hr {
+  border: none;
+  height: 1px;
+  background: #a4a4a4;
+  margin: 8px 0px;
+}
+
+.sub-menu p {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.sub-menu p:hover {
+  background-color: #f1f1f1;
+}
+
+.menu:hover .sub-menu {
+  display: block;
+}
