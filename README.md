@@ -3,40 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chat App README</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    h1, h2 {
-      color: #2c3e50;
-    }
-    pre {
-      background-color: #eaeaea;
-      padding: 10px;
-      overflow-x: auto;
-    }
-    ul {
-      margin-left: 20px;
-    }
-    code {
-      background-color: #eaeaea;
-      padding: 2px 4px;
-      border-radius: 4px;
-    }
-  </style>
+  
+ 
 </head>
 <body>
-  <h1>Talkify-Full Stack Chat App</h1>
-  
-  <p>
-    This is a full stack chat application built using <strong>React.js</strong> and <strong>Firebase</strong>. 
-    Users can create an account, log in, and chat with friends in real time. The app supports sending text messages as well as images.
-  </p>
+
+  <h1>Talkify - Full Stack Chat App</h1>
+
+  <p>This is a full stack chat application built using <strong>React.js</strong> and <strong>Firebase</strong>. Users can create an account, log in, and chat with friends in real time. The app supports sending text messages as well as images.</p>
 
   <h2>🚀 Features</h2>
   <ul>
@@ -61,6 +35,7 @@ npm install
 
   <h2>⚙️ Configuration</h2>
   <p>Create a Firebase project and add your Firebase config in a <code>.env</code> file or directly in your Firebase initialization file:</p>
+
   <pre><code>// firebase-config.js
 import { initializeApp } from "firebase/app";
 
@@ -85,5 +60,6 @@ export default app;
 
   <h2>📄 License</h2>
   <p>This project is licensed under the MIT License.</p>
+
 </body>
 </html>
