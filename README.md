@@ -130,3 +130,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 - [Daisy UI](https://daisyui.com/)
 - [Zustand](https://zustand-demo.pmnd.rs/)
 
+## 📸 Screenshots
+
+![Talkify  Screenshot 1](https://drive.google.com/file/d/1AV-qE0FHBGcXZB4SYWlXEDzEoHo5hkDs/view?usp=sharing)
+![Talkify Screenshot 2](https://drive.google.com/file/d/1tApAuj5EJfSH6FjrUw1Ip3z4RfN3QcYt/view?usp=sharing)
