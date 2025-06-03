@@ -112,7 +112,7 @@ npm start
 ## 🌐 Deployment
 
 
-- [Render](https://render.com/)
+- [https://talkify-2yxp.onrender.com/login]
 
 
 ## 🙌 Contributing
