@@ -112,7 +112,7 @@ npm start
 ## 🌐 Live Demo
 
 
-- [https://talkify-2yxp.onrender.com/login]
+- https://talkify-2yxp.onrender.com/login
 
 
 ## 🙌 Contributing
