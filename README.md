@@ -109,7 +109,7 @@ npm start
 
 ---
 
-## 🌐 Deployment
+## 🌐 Live Demo
 
 
 - [https://talkify-2yxp.onrender.com/login]
