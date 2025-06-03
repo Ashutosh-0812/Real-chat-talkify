@@ -14,7 +14,7 @@ export default {
       "cupcake",
       "bumblebee",
       "emerald",
-      "corporate",
+      "corporate", // still included in the list
       "synthwave",
       "retro",
       "cyberpunk",
@@ -42,5 +42,11 @@ export default {
       "nord",
       "sunset",
     ],
+    darkTheme: "dark", 
+    base: true, 
+    styled: true, 
+    prefix: "", 
+    logs: true, 
+    themeRoot: ":root", 
   },
 };
