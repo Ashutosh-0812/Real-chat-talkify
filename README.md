@@ -87,11 +87,10 @@ Adjust client-side environment variables as needed.
 cd backend
 npm run dev
 
-# Start frontend c
+# Start frontend
 cd frontend
 npm start
 ```
-
 
 ## 🛡️ Authentication & Authorization
 
@@ -111,17 +110,13 @@ npm start
 
 ## 🌐 Live Demo
 
-
 - https://talkify-2yxp.onrender.com/login
-
 
 ## 🙌 Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 ---
-
-
 
 ## ✨ Acknowledgements
 
@@ -132,5 +127,4 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## 📸 Screenshots
 
-![Talkify  Screenshot 1](https://drive.google.com/file/d/1AV-qE0FHBGcXZB4SYWlXEDzEoHo5hkDs/view?usp=sharing)
-![Talkify Screenshot 2](https://drive.google.com/file/d/1tApAuj5EJfSH6FjrUw1Ip3z4RfN3QcYt/view?usp=sharing)
+![Talkify Screenshot 1](https://drive.google.com/uc?export=view&id=1AV-qE0FHBGcXZB4SYWlXEDzEoHo5hkDs)
